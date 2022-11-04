@@ -1,0 +1,25 @@
+/* pages/showSearch/showSearch.wxss */
+.van-card__img{
+  width: 300rpx !important;
+  height: 160% !important;
+}
+.van-card__title{
+  position: relative !important;
+  left: 120rpx !important;
+}
+.van-card__bottom{
+  position: relative;
+  top: 70rpx;
+  left: 120rpx;
+}
+.van-card{
+  height: 300rpx !important;
+  border-bottom: 1rpx rgb(236, 236, 236) solid !important;
+  background-color: white !important;
+}
+.van-card__price-integer{
+  font-size: 40rpx !important;
+}
+.van-card__price{
+  font-size: 40rpx !important;
+}

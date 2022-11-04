@@ -1,0 +1,16 @@
+<!--pages/category/category.wxml-->
+<view class="inputBox">
+<input class="input" type="text" placeholder="搜索"/>
+</view>
+
+<view class="mainBox">
+<van-sidebar active-key="{{ activeKey }}" bind:change="getNavContent">
+  <van-sidebar-item wx:for="{{navList}}" title="{{item.cat_name}}"  wx:key="id"/>
+</van-sidebar>
+<view class="gridWrap">
+  <van-grid class="gridBox" column-num="3" wx:for="{{navList[currentNav].children}}" wx:key="id">
+  <view class="title">/{{item.cat_name}}/</view>
+  <van-grid-item icon="{{item.cat_icon}}" text="{{item.cat_name}}" wx:for="{{item.children}}" wx:key="id" link-type="navigateTo" url='/pages/showSearch/showSearch?cid={{item.cat_id}}'/>
+</van-grid>
+</view>
+</view>

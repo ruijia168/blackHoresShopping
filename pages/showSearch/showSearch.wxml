@@ -1,0 +1,11 @@
+
+<van-card
+  wx:for="{{goods}}"
+  wx:key="id"
+  price="{{item.goods_price}}"
+  title="{{item.goods_name}}"
+  thumb="{{ item.goods_big_logo }}"
+  thumb-mode="aspectFill"
+/>
+
+

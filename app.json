@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/custom/custom",
+    "pages/showSearch/showSearch",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tab_icons/home.png",
+        "selectedIconPath": "/static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/static/tab_icons/cate.png",
+        "selectedIconPath": "/static/tab_icons/cate-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/static/tab_icons/cart.png",
+        "selectedIconPath": "/static/tab_icons/cate-active.png"
+      },
+      {
+        "pagePath": "pages/custom/custom",
+        "text": "我的",
+        "iconPath": "/static/tab_icons/my.png",
+        "selectedIconPath": "/static/tab_icons/my-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#c00000",
+    "navigationBarTitleText": "都给我买",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

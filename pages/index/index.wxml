@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="inputBox">
+<input class="input" type="text" placeholder="搜索"/>
+</view>
+<view class="lunbotu">
+<swiper indicator-dots="true" circular="true">
+<swiper-item wx:for="{{swiperList}}" wx:key="id">
+<image src="{{item.image_src}}" ></image>
+</swiper-item>
+</swiper>
+</view>
+<view class="grid-list" >
+  <navigator class="grid-item" wx:for="{{gridList}}" wx:key="id">
+    <image src="{{item.image_src}}"></image>
+  </navigator>
+</view>
+<view class="wanggeDiv" wx:for="{{recommendList}}" wx:key="id">
+<view class="imgTitle">
+<image src="{{item.floor_title.image_src}}"></image>
+</view>
+<view class="grid-container" >
+  <view class="box" wx:for="{{item.product_list}}" wx:key="id">
+  <image src="{{item.image_src}}"></image>
+  </view>
+</view>
+</view>

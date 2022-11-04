@@ -1,0 +1,80 @@
+/**index.wxss**/
+.inputBox{
+  width: 100%;
+  height: 90rpx;
+  background-color: #c00000;
+}
+.input{
+  width: 80%;
+  height: 70rpx;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 35rpx;
+  text-align: center;
+}
+.lunbotu{
+  width: 100%;
+  height: 380rpx;
+}
+.lunbotu swiper{
+  height: 100%;
+}
+.lunbotu image{
+  width: 100%;
+  height: 100%;
+}
+.grid-list{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 200rpx;
+  align-items: center;
+}
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 200rpx;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item image{
+  width:90%;
+  height: 140rpx;
+}
+.wanggeDiv{
+  margin-bottom: 30rpx;
+}
+.imgTitle{
+  width: 100%;
+  height: 80rpx;
+}
+.imgTitle image{
+  width: 100%;
+  height: 100%;
+}
+.grid-container{
+  max-width: 100%;
+  height: 400rpx;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10rpx;
+}
+.grid-container .box:nth-child(1){
+  margin-left: 10rpx;
+  background-color: azure;
+  grid-row: span 2;
+}
+.grid-container .box:nth-child(3){
+  margin-right: 10rpx;
+}
+.grid-container .box:nth-child(5){
+  margin-right: 10rpx;
+}
+.grid-container .box image{
+  width: 100%;
+  height: 100%; 
+}

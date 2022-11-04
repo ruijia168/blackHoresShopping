@@ -1,0 +1,47 @@
+/* pages/category/category.wxss */
+.inputBox{
+  width: 100%;
+  height: 90rpx;
+  background-color: #c00000;
+}
+.input{
+  width: 80%;
+  height: 70rpx;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 35rpx;
+  text-align: center;
+}
+.mainBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.van-sidebar-item{
+  padding-bottom: 60rpx !important;
+}
+.gridWrap{
+  width: 78%;
+}
+.van-grid-item__icon icon-class{
+  width: 200rpx !important;
+}
+.gridBox image{
+  width: 100rpx !important;
+  height: 140rpx !important;
+  position: relative;
+  bottom: 32rpx;
+  right: 16rpx;
+  transform: scale(1.1);
+}
+.gridBox text{
+  text-align: center;
+  font-size: 25rpx;
+  position: relative;
+  top: 20rpx;
+}
