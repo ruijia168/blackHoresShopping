@@ -17,8 +17,15 @@
         },
         {
           "name": "",
-          "pathName": "pages/showSearch/showSearch",
-          "query": "cid=5",
+          "pathName": "pages/detail/detail",
+          "query": "goods_id=43986",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/detail/detail",
+          "query": "goods_id=43986",
           "launchMode": "default",
           "scene": null
         }
