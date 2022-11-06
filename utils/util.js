@@ -1,11 +1,22 @@
 const sumMoney =(arr)=>{
-  let sum = 0
-  for(let i =0 ;i<arr.length;i++){
-    sum += arr[i].goods_price
-  }
-  return sum
+  let a = 2
+  return a
 }
-
+const throttle=(fn,delay)=>{
+  let timer = null
+  return function(){
+      let context = this ; 
+      let args = arguments;
+      if(!timer){
+        timer = setTimeout(
+          function(){
+            fn.apply(context,args)
+            timer = null
+          },delay
+        )
+      }
+  }
+}
 module.exports = {
   sumMoney
 }

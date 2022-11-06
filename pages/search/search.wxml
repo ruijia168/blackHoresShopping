@@ -1,0 +1,49 @@
+<!--pages/search/search.wxml-->
+<view class="input_box">
+  <van-cell-group class="input">
+  <van-field
+    value="{{ value }}"
+    placeholder="请输入用户名"
+    border="{{ false }}"
+    clearable="{{true}}"
+    left-icon="search"
+    bindconfirm="searchBtn"
+  />
+</van-cell-group>
+</view>
+<view class="empty_box" style="display: none;">
+  <view class="search_history">
+  <van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="搜索历史"
+    border="{{ false }}"
+    readonly="{{true}}"
+    right-icon="delete"
+    border="{{true}}"
+    placeholder-style="color:black"
+  />
+</van-cell-group>
+</view>
+<view class="history_box">
+  apple
+</view>
+</view>
+<view class="checked_box">
+  <van-cell-group>
+  <van-field
+    value="输入框已禁用aaaaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    disabled
+    border="{{ false }}"
+    is-link="{{true}}"
+  />
+</van-cell-group>
+<van-cell-group>
+  <van-field
+    value="输入框已禁用aaaaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    disabled
+    border="{{ false }}"
+    is-link="{{true}}"
+  />
+</van-cell-group>
+</view>

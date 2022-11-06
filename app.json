@@ -5,7 +5,8 @@
     "pages/cart/cart",
     "pages/custom/custom",
     "pages/showSearch/showSearch",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/search/search"
   ],
   "tabBar": {
     "list": [
@@ -38,7 +39,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#c00000",
-    "navigationBarTitleText": "都给我买",
+    "navigationBarTitleText": "王者荣耀",
     "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json"

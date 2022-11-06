@@ -35,7 +35,6 @@ getResult(){
    */
   onLoad(options) {
     this.setData({currentId:options.cid})
-    
   },
 
   /**

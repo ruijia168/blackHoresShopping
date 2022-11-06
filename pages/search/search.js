@@ -1,20 +1,24 @@
-// pages/custom/custom.js
-import {sumMoney} from '../../utils/util'
-
+// pages/search/search.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    isEmpty:false,
+    changeClassName:"checked_box"
   },
-
+//搜索触发
+searchBtn(){
+  wx.navigateTo({
+    url: '/pages/detail/detail',
+  })
+},
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    console.log(sumMoney());
+
   },
 
   /**

@@ -6,6 +6,7 @@ export const store = observable({
   goodsId:[],
   goodId:null,
   goodsNum:null,
+  searchNames:[],
   updateGoodsId:action(function(newId){
     this.goodId = newId
   }),
