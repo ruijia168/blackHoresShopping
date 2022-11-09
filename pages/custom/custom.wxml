@@ -1,2 +1,5 @@
 <!--pages/custom/custom.wxml-->
-<checkbox>123</checkbox>
+<view class="icon_box">
+  <van-icon name="https://b.yzcdn.cn/vant/icon-demo-1126.png" />
+</view>
+<van-button type="danger" class="btn" bindtap="btnEvent">一键登录</van-button>

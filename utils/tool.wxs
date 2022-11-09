@@ -8,7 +8,7 @@ function sumMoney(arr){
 function info_simplfy(str){
   var a = "ijadajldaldadadad"
   if(a.length>11){
-      a = a.slice(0,12);
+      a = a.slice(0,8);
       a = a + "..."
   }
   return a

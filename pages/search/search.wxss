@@ -33,13 +33,13 @@
   line-height: 60rpx;
   max-width: 200rpx;
   min-width: 80rpx;
-  text-align: center;
+  font-size: 24rpx;
   border-radius: 10rpx;
   margin-left: 20rpx;
   display: inline-block;
   padding: 10rpx;
   margin-bottom: 20rpx;
-  color:rgb(221, 221, 221)
+  color:rgb(187, 186, 186)
 }
 .van-field__control--disabled{
   color: black !important;

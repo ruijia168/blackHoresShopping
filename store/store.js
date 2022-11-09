@@ -7,6 +7,12 @@ export const store = observable({
   goodId:null,
   goodsNum:null,
   searchNames:[],
+  addSearchNames:action(function(data){
+    this.searchNames = [...this.searchNames,data]
+  }),
+  deleteAllSearch:action(function(){
+    this.searchNames = []
+  }),
   updateGoodsId:action(function(newId){
     this.goodId = newId
   }),
