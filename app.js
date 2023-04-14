@@ -13,7 +13,7 @@ App({
       }
     })
     wx.setTabBarStyle({
-      selectedColor: "#d82009",
+      selectedColor: "pink",
       borderStyle: 'white'
     })
   },
