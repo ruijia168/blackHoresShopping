@@ -1,1 +1,83 @@
 /* pages/cart/cart.wxss */
+.check_box{
+position: absolute;
+top: 134rpx;
+left: 30rpx;
+}
+
+.good{
+  display: flex;
+  height: 320rpx;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding-left: 100rpx;
+}
+.good image{
+ height: 250rpx;
+ margin-right:20rpx ;
+}
+.good_container{
+  display: flex;
+}
+.good_data{
+  display: flex;
+  justify-content: space-between;
+}
+.good_title{
+  font-size: 25rpx;
+}
+.good_edit{
+  display: flex;
+  justify-content: space-around;
+  border: 3rpx solid rgb(236, 236, 236);
+  border-radius: 10rpx;
+  width: 200rpx;
+  height: 70rpx;
+  align-items: center;
+  margin-right: 20rpx;
+}
+.good_price{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(192, 0, 0);
+}
+.good_edit view{
+  text-align: center;
+  width: 60rpx;
+}
+.good_descirption{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.good_minus{
+  font-size: 50rpx;
+}
+.good_add{
+  font-size: 50rpx;
+}
+.bottom_tab{
+  height: 150rpx;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  justify-content: space-around;
+  align-items: center;
+}
+.button_box button{
+  height: 120rpx;
+  width: 200rpx;
+}
+.money{
+  color: rgb(192, 0, 0);
+}
+.location{
+  height: 210rpx;
+  margin:0 auto;
+  width: 600rpx;
+  border-radius: 12rpx;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // app.js
 App({
   onLaunch() {
@@ -21,3 +22,5 @@ App({
     userInfo: null,
   },
 });
+=======
+>>>>>>> dev-gjj

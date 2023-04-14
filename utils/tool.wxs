@@ -1,0 +1,19 @@
+function sumMoney(arr){
+  var sum = 0
+  for(var i =0 ;i<arr.length;i++){
+    sum += arr[i].goods_price
+  }
+  return sum
+}
+function info_simplfy(str){
+  var a = "ijadajldaldadadad"
+  if(a.length>11){
+      a = a.slice(0,8);
+      a = a + "..."
+  }
+  return a
+}
+
+module.exports={
+  sumMoney:sumMoney
+}

@@ -1,1 +1,20 @@
 /* pages/custom/custom.wxss */
+.icon_box{
+  width: 200rpx;
+  height: 200rpx;
+  margin: 160rpx auto;
+  margin-bottom: 60rpx;
+}
+.icon_box .van-icon--image{
+  width: 200rpx;
+  height: 200rpx;
+  color: rgb(192, 0, 0) !important;
+}
+.van-button--danger{
+  width: 300rpx !important;
+  height: 100rpx !important;
+  font-size: 25rpx;
+}
+.van-button{
+  margin-left: 224rpx;
+}

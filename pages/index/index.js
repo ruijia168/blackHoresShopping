@@ -45,6 +45,12 @@ Page({
         }
       })
  },
+ toSearch(){
+   console.log(13);
+  wx.navigateTo({
+    url: '../search/search',
+  })
+ },
   onLoad() {
     this.getSwiperList()
     this.getGridList()
