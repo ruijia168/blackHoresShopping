@@ -18,5 +18,6 @@ App({
   },
   globalData: {
     userInfo: null,
+    gittest:'test'
   },
 });
