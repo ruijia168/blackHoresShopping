@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // app.js
 App({
   onLaunch() {
@@ -18,6 +19,14 @@ App({
     })
   },
   globalData: {
+<<<<<<< HEAD
+    userInfo: null,
+  },
+});
+=======
+>>>>>>> dev-gjj
+=======
     userInfo: null
   }
 })
+>>>>>>> 6dce0c38b35769477c3851e55050402d5914d3b9

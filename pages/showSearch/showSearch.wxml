@@ -6,6 +6,8 @@
   title="{{item.goods_name}}"
   thumb="{{ item.goods_big_logo }}"
   thumb-mode="aspectFill"
+  link-type="navigateTo"
+  thumb-link='/pages/detail/detail?goods_id={{item.goods_id}}'
 />
 
 

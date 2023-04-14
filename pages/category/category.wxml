@@ -4,7 +4,7 @@
 </view>
 
 <view class="mainBox">
-<van-sidebar active-key="{{ activeKey }}" bind:change="getNavContent">
+  <van-sidebar active-key="{{ activeKey }}" bind:change="getNavContent">
   <van-sidebar-item wx:for="{{navList}}" title="{{item.cat_name}}"  wx:key="id"/>
 </van-sidebar>
 <view class="gridWrap">

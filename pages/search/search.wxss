@@ -1,0 +1,50 @@
+/* pages/search/search.wxss */
+.input_box{
+  width: 100%;
+  height: 100rpx;
+  background-color: rgb(192, 0, 0);
+}
+/* .input_box .input{
+  width: 800rpx !important;
+  height: 80rpx;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 40rpx;
+}
+.input-class{
+  width: 80% !important;
+} */
+.input_box .van-cell{
+  width: 80% !important;
+  height: 80rpx;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 40rpx;
+  font-size: 30rpx !important;
+}
+.empty_box .search_history .van-field__control{
+  border-bottom: 1rpx solid rgb(221, 221, 221);
+  border-width: 100% !important;
+  height: 60rpx !important;
+}
+.empty_box .history_box{
+  height: 60rpx;
+  border: 1rpx solid rgb(221, 221, 221);
+  line-height: 60rpx;
+  max-width: 200rpx;
+  min-width: 80rpx;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  display: inline-block;
+  padding: 10rpx;
+  margin-bottom: 20rpx;
+  color:rgb(187, 186, 186)
+}
+.van-field__control--disabled{
+  color: black !important;
+}
+.checked_box .van-cell--borderless{
+ padding-top: 20rpx;
+ padding-bottom: 20rpx;
+}

@@ -1,0 +1,48 @@
+<!--pages/search/search.wxml-->
+<view class="input_box">
+  <van-cell-group class="input">
+  <van-field
+    value="{{ value }}"
+    placeholder="请输入商品信息"
+    border="{{ false }}"
+    clearable="{{true}}"
+    left-icon="search"
+    bindconfirm="searchBtn"
+    bind:focus="hideEmpty"
+    bind:blur="showEmpty"
+    bind:change="throttleSearch"
+  />
+</van-cell-group>
+</view>
+<view class="empty_box" style="display:{{historyDisplay}};">
+  <view class="search_history">
+  <van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="搜索历史"
+    border="{{ false }}"
+    readonly="{{true}}"
+    right-icon="delete"
+    border="{{true}}"
+    placeholder-style="color:black"
+    bind:click-icon="deleteAllSearch"
+  />
+</van-cell-group>
+</view>
+<view class="history_box" wx:for="{{searchNames}}" wx:key="id">
+  {{item}}
+</view>
+</view>
+<view class="checked_box" style="display:{{searchDisplay}};">
+<van-cell-group wx:for="{{searchList}}" wx:key="id">
+  <van-field
+    value="{{item.goods_name}}"
+    disabled
+    border="{{ false }}"
+    is-link="{{true}}"
+    bind:click-input="toDetail"
+    id="{{item.goods_id}}"
+    data-name="{{item.goods_name}}"
+  />
+</van-cell-group>
+</view>

@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="inputBox">
+<view class="inputBox" bindtap="toSearch">
 <input class="input" type="text" placeholder="搜索"/>
 </view>
 <view class="lunbotu">

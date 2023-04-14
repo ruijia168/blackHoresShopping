@@ -1,0 +1,60 @@
+/* pages/detail/detail.wxss */
+@import '/style/iconfont/iconfont.wxss';
+.lunboItem{
+  height: 600rpx !important;
+  text-align: center;
+}
+.lunboItem image{
+  height: 100%;
+}
+.intro{
+  display: flex;
+  padding-left: 20rpx;
+}
+.left{
+  position: relative;
+  padding-right: 8rpx;
+}
+.left:after{
+  content: '';
+  position: absolute;
+  left: auto;
+  top: auto;
+  bottom: 50rpx;
+  right: 0;
+  height: 50%;
+  width: 1rpx;
+  background-color: rgb(223, 223, 223);
+}
+.right{
+  display: flex;
+  width: 300rpx;
+  align-items: center;
+  justify-content: center;
+}
+.price{
+  color: rgb(178, 36, 49);
+  font-size: 40rpx;
+  margin-bottom: 16rpx;
+}
+.title{
+  font-size: 30rpx;
+  margin-bottom: 16rpx;
+}
+.trans{
+  font-size: 24rpx;
+  color: rgb(182, 168, 168);
+}
+.collect{
+  font-size: 25px;
+}
+.font_collect{
+  font-size: 26rpx;
+}
+.sorry{
+  text-align: center;
+  margin-top:80rpx ;
+}
+.bottom{
+  display: flex !important;
+}
