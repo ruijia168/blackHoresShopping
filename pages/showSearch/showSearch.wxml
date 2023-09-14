@@ -2,7 +2,7 @@
 <van-card
   wx:for="{{goods}}"
   wx:key="id"
-  price="{{item.goods_price}}"
+  price="{{goods_price}}"
   title="{{item.goods_name}}"
   thumb="{{ item.goods_big_logo }}"
   thumb-mode="aspectFill"
@@ -10,4 +10,6 @@
   thumb-link='/pages/detail/detail?goods_id={{item.goods_id}}'
 />
 
-
+// 测试测试
+hbc hbc hbc
+你看到我了吗 哈哈哈哈哈
