@@ -14,20 +14,15 @@
   />
 </van-cell-group>
 </view>
-<view class="empty_box" style="display:{{historyDisplay}};">
-  <view class="search_history">
-  <van-cell-group>
-  <van-field
-    value="{{ value }}"
-    placeholder="搜索历史"
-    border="{{ false }}"
-    readonly="{{true}}"
-    right-icon="delete"
-    border="{{true}}"
-    placeholder-style="color:black"
-    bind:click-icon="deleteAllSearch"
-  />
-</van-cell-group>
+<!-- 这是我的测试代码测测-->
+<view>
+nihao,hbc
+nihao,hbc
+nihao,hbc
+nihao,hbc
+nihao,hbc
+</view>
+<!-- 这是我的测试代码测测-->
 </view>
 <view class="history_box" wx:for="{{searchNames}}" wx:key="id">
   {{item}}
